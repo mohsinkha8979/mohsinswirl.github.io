@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Share+Tech&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    position: relative;
+}
+
+header{
+    background: #fa709a;
+    display: flex;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+ul li{
+    color: wheat;
+
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.section{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    width: 100%;
+    background: #fee140;
+     justify-content: center;
+    align-items: center;
+}
+img{
+ border: 8px solid aqua;
+    gap: 20px;
+    border-radius: 30px;
+    transition: 0.3s all ease;
+
+}
+.part{
+    position: relative;
+   
+   
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    color: black;
+    background: white;
+    transition: 0.8s all ease;
+}
+
+button:hover{
+    transform: rotate(360deg);
+}
+
+footer a{
+    color: #fee140;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+}
+span{
+    font-size: 16px;
+    color: white;
+    margin-top:120px ;
+    text-align: center;
+}
+h4{
+    color: #fa709a;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+span i{
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
